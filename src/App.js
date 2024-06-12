@@ -5,6 +5,8 @@ import Courses from "./pages/Courses";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 
+import "../src/styleSheets/home.css"
+
 function App() {
   return (
     <div className="App">
