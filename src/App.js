@@ -6,6 +6,9 @@ import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 
 import "../src/styleSheets/home.css"
+import "../src/styleSheets/header-footer.css"
+import "../src/styles/main.scss"
+
 
 function App() {
   return (

@@ -1,0 +1,58 @@
+@import "../styles/mixins/mixins";
+
+.home-container {
+
+  .introduction {
+    .overlay {
+    }
+    .inner-wrapper {
+
+      width: 100%;
+      padding: 50px;
+      margin: 0 auto;
+
+      @include  tablet-landscape{
+        width: unset;
+        padding: 50px 100px;
+        margin: unset;
+      }
+
+      h1 {
+        color: rgba(255, 255, 255, 0.466);
+        font-size: 70px;
+        text-transform: uppercase;
+        transition: opacity 1s ease, color ease 1s, text-shadow 0.5s ease;
+        //position: relative;
+        opacity: 0.5;
+        //z-index: 5;
+
+        @include tablet-landscape {
+          font-size: 100px;
+        }
+        &:hover{
+          //z-index: 5;
+          opacity: 1;
+          cursor: pointer;
+          color: whitesmoke;
+          text-shadow: 0px 0px 10px #fff;
+        }
+      }
+
+      .intro-content {
+        margin-block-start: 30px;
+        button {
+          width: auto;
+          margin-left: 20px;
+          @include tablet-landscape {
+            width: 50%;
+          }
+        }
+      }
+
+    }
+
+
+  }
+
+
+}

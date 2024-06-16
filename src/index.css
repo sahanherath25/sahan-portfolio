@@ -43,6 +43,20 @@ code {
 
 }
 
+.none{
+  display: none;
+}
+.show{
+  display: block;
+}
+
 .bold{
  font-weight: bold;
+}
+
+.n-box1{
+  border-radius: 50px;
+  background: #001220;
+  box-shadow:  10px 10px 0px #00070d,
+  -10px -10px 0px #001d33;
 }

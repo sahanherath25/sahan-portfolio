@@ -1,0 +1,61 @@
+/*.header{*/
+
+/*}*/
+
+/*.menu-icon{*/
+/*    color: orangered;*/
+/*    font-size: 70px;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.menu-icon:hover{*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.show-header{*/
+/*    !*color: whitesmoke;*!*/
+/*    !*text-decoration: none;*!*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    height: 60%;*/
+/*    width: 50%;*/
+/*    background-color: #001220;*/
+/*    opacity: 1;*/
+/*    !*z-index: 5;*!*/
+/*    border-bottom-left-radius: 50%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    transition: all 0.5s;*/
+
+/*}*/
+
+/*ul li {*/
+/*    color: whitesmoke;*/
+/*    list-style: none;*/
+/*    margin-block-start: 25px;*/
+/*}*/
+
+/*ul a{*/
+/*    color: whitesmoke;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.hide-header{*/
+/*    color: whitesmoke;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*    overflow: hidden;*/
+/*    transition: all 0.3s;*/
+
+/*}*/
