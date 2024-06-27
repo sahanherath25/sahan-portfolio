@@ -1,0 +1,77 @@
+@import "../styles/mixins/mixins";
+
+.hero-container{
+
+  //border: 2px solid whitesmoke;
+  background-color: #001220;
+  .content-wrapper{
+    padding: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    .left-container{
+      //border: 2px solid whitesmoke;
+      margin-right: 100px;
+      padding: 50px;
+      //flex-basis: 45%;
+      width: 50%;
+      text-align: left;
+
+      h2{
+        text-transform: unset;
+        color: whitesmoke;
+        font-size: 3rem;
+      }
+
+      h4{
+        color: whitesmoke;
+      }
+
+      .description-1{
+        color: whitesmoke;
+        margin-top: 20px;
+      }
+
+      .navigation-links{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+      }
+      .link{
+        text-transform: uppercase;
+        font-size: 20px;
+        text-decoration: none;
+        color: #948c8c;
+        opacity: 0.7;
+        transition:color 900ms ease-in-out,opacity 500ms ease ;
+        padding: 5px;
+        &::before{
+          content: "-----";
+
+        }
+
+        &:hover{
+          color: whitesmoke;
+          opacity: 1;
+        }
+      }
+
+
+
+    }
+    .right-container{
+      padding: 50px;
+      //border: 2px solid whitesmoke;
+      text-align: left;
+      //flex-basis: 45%;
+      width: 50%;
+
+      .description{
+        color: whitesmoke;
+
+      }
+    }
+  }
+
+
+}
