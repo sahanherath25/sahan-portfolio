@@ -1,9 +1,11 @@
-import React, {useRef} from "react";
+import React, {useEffect, useRef} from "react";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import CarouselCards from "../components/CarouselCards";
 import Hero from "../components/Hero";
 import Wave from "../components/Wave";
+import initAOS from "../aos/aos";
+import Skills from "../components/Skills";
 
 const Home=()=>{
 
@@ -12,6 +14,12 @@ const Home=()=>{
     const getStart = () => {
         heroRef.current.scrollIntoView({ behavior: 'smooth' });
     }
+
+    useEffect(()=>{
+
+        initAOS();
+
+    },[])
 
     return(
         <div className={"home-container"}>
@@ -29,8 +37,9 @@ const Home=()=>{
             </div>
             {/*<Carousel/>*/}
             <CarouselCards/>
-            <Hero ref={heroRef}/>
-            <Wave/>
+            <Hero ref={heroRef}  dataAOS={"fade-up"}  dataAOS2={"zoom-in-up"} />
+            <Wave dataAOS={"zoom-in"} />
+            <Skills/>
 
         </div>
 

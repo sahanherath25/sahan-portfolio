@@ -1,0 +1,40 @@
+@import "../styles/mixins/mixins";
+
+
+.main-wrapper {
+
+  .container {
+
+    &.projects-intro {
+
+      .row {
+        border: 1px solid indianred;
+        margin-block-start: 50px;
+      }
+
+      .left-container {
+
+        h1 {
+          @include tablet-landscape {
+            text-align: left;
+          }
+        }
+
+        .primary-button {
+          background-color: #001d33;
+          color: white;
+          font-weight: bold;
+        }
+
+      }
+
+      .right-container {
+
+      }
+
+    }
+
+
+  }
+}
+

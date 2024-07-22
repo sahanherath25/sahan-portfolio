@@ -1,72 +1,84 @@
 @import "../styles/mixins/mixins";
 
-.hero-container{
+.hero-container {
 
   //border: 2px solid whitesmoke;
   background-color: #001220;
-  .content-wrapper{
-    padding: 100px;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    .left-container{
-      //border: 2px solid whitesmoke;
-      margin-right: 100px;
-      padding: 50px;
-      //flex-basis: 45%;
-      width: 50%;
-      text-align: left;
 
-      h2{
+  .content-wrapper {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet-landscape {
+      padding: 100px;
+      width: 80%;
+      flex-direction: row;
+      margin: 0 auto;
+    }
+
+    .left-container {
+      width: 100%;
+      @include tablet-landscape {
+        width: 50%;
+        margin-right: 100px;
+        padding: 50px;
+        text-align: left;
+      }
+
+      h2 {
         text-transform: unset;
         color: whitesmoke;
         font-size: 3rem;
       }
 
-      h4{
+      h4 {
         color: whitesmoke;
       }
 
-      .description-1{
+      .description-1 {
         color: whitesmoke;
         margin-top: 20px;
       }
 
-      .navigation-links{
+      .navigation-links {
         margin-top: 40px;
         display: flex;
         flex-direction: column;
       }
-      .link{
+
+      .link {
         text-transform: uppercase;
         font-size: 20px;
         text-decoration: none;
         color: #948c8c;
         opacity: 0.7;
-        transition:color 900ms ease-in-out,opacity 500ms ease ;
+        transition: color 900ms ease-in-out, opacity 500ms ease;
         padding: 5px;
-        &::before{
+
+        &::before {
           content: "-----";
 
         }
 
-        &:hover{
+        &:hover {
           color: whitesmoke;
           opacity: 1;
         }
       }
 
-
-
     }
-    .right-container{
-      padding: 50px;
-      //border: 2px solid whitesmoke;
-      text-align: left;
-      //flex-basis: 45%;
-      width: 50%;
 
-      .description{
+    .right-container {
+      width: 100%;
+      @include tablet-landscape {
+        width: 50%;
+        padding: 50px;
+        text-align: left;
+      }
+
+      .description {
         color: whitesmoke;
 
       }

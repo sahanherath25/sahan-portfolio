@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Projects from "./pages/Projects";
@@ -11,6 +11,8 @@ import "../src/styles/main.scss"
 
 
 function App() {
+
+
   return (
     <div className="App">
         <BrowserRouter>
@@ -23,6 +25,9 @@ function App() {
         </BrowserRouter>
     </div>
   );
+
+
+
 }
 
 export default App;

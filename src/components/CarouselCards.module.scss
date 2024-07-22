@@ -9,26 +9,54 @@
   .h2-title{
     color: white
   }
+
+  .swiper{
+
+  }
   .cards-swiper {
-    width: 60%;
+    width: 90%;
     height: 400px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
 
-    .swiper-slide {
-      width:100%;
-      height: 100%;
-      border: 3px solid #00FFCA;
+    @include tablet-landscape{
+      width: 60%;
+    }
 
-      img {
-        display: block;
+    .swiper-wrapper{
+      .swiper-slide {
+        width:90%;
         height: 100%;
-        width: 100%;
-        object-fit: fill;
-        //object-position: center;
+        border: 3px solid #00FFCA;
+        @include tablet-landscape{
+          width:100%;
+        }
+
+        img {
+          display: block;
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          //object-position: center;
+        }
+      }
+
+    }
+
+    .swiper-button-prev{
+      display: none;
+      @include tablet-landscape{
+        display: unset;
       }
     }
+    .swiper-button-next{
+      display: none;
+      @include tablet-landscape{
+        display: unset;
+      }
+    }
+
 
 
   }

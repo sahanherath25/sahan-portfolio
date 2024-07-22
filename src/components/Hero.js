@@ -1,9 +1,11 @@
 import React, {forwardRef} from "react";
 import "./Hero.module.scss"
+import Experience from "./Experience";
+import Experiences from "./Experiences";
 
 const Hero = forwardRef((props, ref) => {
     return (
-        <div ref={ref} className={"hero-container"}>
+        <div data-aos={props.dataAOS} ref={ref} className={"hero-container"} data->
             <div className="content-wrapper">
                 <div className="left-container">
 
@@ -19,9 +21,8 @@ const Hero = forwardRef((props, ref) => {
                         <a href="./" className="experience link">Experience</a>
                         <a href="./" className="projects link">Projects</a>
                     </div>
-
                 </div>
-                <div className="right-container">
+                <div className="right-container" data-aos={props.dataAOS2}>
                     <div className="description">
                         <p>Hi, I’m Sahan Herath, a dedicated Frontend Web Developer with a passion for creating visually
                             stunning and highly responsive web applications. With a strong foundation in HTML, CSS, and
@@ -44,7 +45,16 @@ const Hero = forwardRef((props, ref) => {
                         </p>
 
                     </div>
+                    <Experiences>
+                        <Experience/>
+                        <Experience/>
+                        <Experience/>
+                        <Experience/>
+                    </Experiences>
                 </div>
+
+
+
             </div>
         </div>
     )

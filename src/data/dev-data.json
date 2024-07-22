@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Portfolio Website",
+    "image": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A personal portfolio website to showcase my projects and skills.",
+    "link": "https://example.com/portfolio"
+  },
+  {
+    "title": "Weather App",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeoqmEC3hmAuYOLEFCitbByZz66sQxr4Gaiw&s",
+    "description": "A weather forecasting app built with React Native.",
+    "link": "https://github.com/yourusername/weather-app"
+  },
+  {
+    "title": "Task Manager",
+    "image": "https://plus.unsplash.com/premium_photo-1669648896400-d3a6161906d6?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A task management app to keep track of your to-do list.",
+    "link": "https://github.com/yourusername/task-manager"
+  },
+  {
+    "title": "E-commerce Store",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZqZkpMyiN2uSuT7GAf6JSkJ44YsZqoQHdw&s",
+    "description": "An e-commerce store built with React and Redux.",
+    "link": "https://github.com/yourusername/ecommerce-store"
+  },
+  {
+    "title": "Blog Platform",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png",
+    "description": "A blogging platform where users can create and share posts.",
+    "link": "https://github.com/yourusername/blog-platform"
+  },
+  {
+    "title": "Chat Application",
+    "image": "https://i0.wp.com/minhphanjavahome.wordpress.com/wp-content/uploads/2019/04/java_logo_640.jpg?resize=1200%2C800&ssl=1",
+    "description": "A real-time chat application using Socket.io.",
+    "link": "https://github.com/yourusername/chat-app"
+  },
+  {
+    "title": "Fitness Tracker",
+    "image": "https://maybe.works/media/blogs/websocket-what-it-is-when-to-use/1100x600.jpg",
+    "description": "A fitness tracker app to log workouts and monitor progress.",
+    "link": "https://github.com/yourusername/fitness-tracker"
+  },
+  {
+    "title": "Recipe App",
+    "image": "https://www.mygreatlearning.com/blog/wp-content/uploads/2019/09/What-is-data-science-2.jpg",
+    "description": "An app to search and save your favorite recipes.",
+    "link": "https://github.com/yourusername/recipe-app"
+  },
+  {
+    "title": "Travel Guide",
+    "image": "https://example.com/images/travel.png",
+    "description": "A travel guide app to find the best tourist spots and activities.",
+    "link": "https://github.com/yourusername/travel-guide"
+  },
+  {
+    "title": "Expense Tracker",
+    "image": "https://example.com/images/expense.png",
+    "description": "An expense tracking app to manage your personal finances.",
+    "link": "https://github.com/yourusername/expense-tracker"
+  }
+]
