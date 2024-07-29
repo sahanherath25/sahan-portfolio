@@ -22,6 +22,7 @@ function App() {
                 <Route path={"/courses"} exact element={<Courses/>}/>
                 <Route path={"/contact"} exact element={<Contact/>}/>
                 <Route path={"/test"} exact element={<Test/>}/>
+                <Route path={"/test"} exact element={<MasterBranch/>}/>
             </Routes>
         </BrowserRouter>
     </div>
