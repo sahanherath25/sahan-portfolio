@@ -45,7 +45,7 @@ const Home=()=>{
             </div>
             {/*<Carousel/>*/}
             <CarouselCards/>
-            <Hero ref={heroRef}  dataAOS={"fade-up"}  dataAOS2={"zoom-in-up"} />
+            <Hero ref={heroRef}  dataAOS={"fade-up "}  dataAOS2={"zoom-in-up"} />
             <Wave dataAOS={"zoom-in "} />
             <Skills/>
         </div>
