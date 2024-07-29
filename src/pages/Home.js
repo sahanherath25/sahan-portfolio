@@ -4,6 +4,7 @@ import CarouselCards from "../components/CarouselCards";
 import Hero from "../components/Hero";
 import Wave from "../components/Wave";
 import initAOS from "../aos/aos";
+import initAOS from "../aos/aos";
 import Skills from "../components/Skills";
 import blobImage from "../assets/images/blob-home.svg"
 
