@@ -1,0 +1,41 @@
+@import "../styles/mixins/mixins";
+
+.courses-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .content-wrapper {
+    width: 50%;
+    color: white;
+    border-left: 5px solid cyan;
+    padding-left: 30px;
+
+    .h1-text {
+      font-size: 75px;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: cyan;
+      border-bottom: 2px solid white;
+      border-bottom: 2px solid white;
+    }
+
+    .text-wrapper {
+      .para {
+        border-right: 5px solid whitesmoke;
+      }
+
+      .btn {
+        width: 25%;
+        margin: 0 auto;
+        padding: 10px;
+        height: unset;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+}

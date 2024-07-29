@@ -52,11 +52,5 @@
     "image": "https://example.com/images/travel.png",
     "description": "A travel guide app to find the best tourist spots and activities.",
     "link": "https://github.com/yourusername/travel-guide"
-  },
-  {
-    "title": "Expense Tracker",
-    "image": "https://example.com/images/expense.png",
-    "description": "An expense tracking app to manage your personal finances.",
-    "link": "https://github.com/yourusername/expense-tracker"
   }
 ]

@@ -6,7 +6,7 @@ const ProjectItem = ({title, description, image, link}) => {
 
         <div className={"col-md-4"}>
             <div className="project-item position-relative ">
-                <img src={image}></img>
+                <img src={image} alt={"test"}></img>
                 <div className="overlay"></div>
                 <div className="project-content ">
                     <h3>{title}</h3>

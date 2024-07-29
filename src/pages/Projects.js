@@ -8,10 +8,9 @@ const Projects = () => {
         <div className={"main-wrapper"}>
             <Header/>
             <h1 >Projects</h1>
+
             <div className="container projects-intro">
-
                 <div className="row flex-with-center mt-5">
-
                     <div className="col-md-6 n-box-2 p-3 left-container py-5">
                         <h1 className={"font bold"}>Projects</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam

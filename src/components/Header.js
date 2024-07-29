@@ -24,6 +24,7 @@ const Header=()=>{
                 <li className={`${path === '/projects' &&  'active'}`}><Link to={"/projects"}>Projects</Link></li>
                 <li className={`${path==='/courses' && 'active'}`}><Link to={"/courses"}>Courses</Link></li>
                 <li className={`${path==='/contact' && 'active'}`}><Link to={"/contact"}>Contact</Link></li>
+                <li className={`${path==='/test' && 'active'}`}><Link to={"/Test"}>Test</Link></li>
             </ul>
 
         </div>
