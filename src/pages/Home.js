@@ -1,16 +1,16 @@
 import React, {useEffect, useRef} from "react";
 import Header from "../components/Header";
-import Carousel from "../components/Carousel";
 import CarouselCards from "../components/CarouselCards";
 import Hero from "../components/Hero";
 import Wave from "../components/Wave";
 import initAOS from "../aos/aos";
 import Skills from "../components/Skills";
+import blobImage from "../assets/images/blob-home.svg"
+
 
 const Home=()=>{
 
     const heroRef = useRef(null);
-
     const getStart = () => {
         heroRef.current.scrollIntoView({ behavior: 'smooth' });
     }
@@ -22,7 +22,14 @@ const Home=()=>{
     },[])
 
     return(
-        <div className={"home-container"}>
+        <div className={"home-container"} style={
+            {
+                backgroundImage:`url({${blobImage})`,
+                backgroundSize:"cover",
+                height:"100vh",
+                backgroundRepeat:"no-repeat"
+            }
+        }>
             <Header/>
             <div className="introduction flex-with-center  " style={{backgroundImage:`url('images/circle-scatter-haikei2.svg')`}}>
                <div className="overlay">
@@ -40,7 +47,6 @@ const Home=()=>{
             <Hero ref={heroRef}  dataAOS={"fade-up"}  dataAOS2={"zoom-in-up"} />
             <Wave dataAOS={"zoom-in"} />
             <Skills/>
-
         </div>
 
     )

@@ -6,7 +6,7 @@ import"./CarouselCards.module.scss"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import {Navigation, Pagination, Mousewheel, Keyboard, EffectFade, EffectCoverflow} from 'swiper/modules';
+import {Navigation, Pagination, EffectCoverflow} from 'swiper/modules';
 
 const CarouselCards=()=>{
     return(

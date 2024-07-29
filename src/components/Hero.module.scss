@@ -21,7 +21,7 @@
     .left-container {
       width: 100%;
       @include tablet-landscape {
-        width: 50%;
+        width: 40%;
         margin-right: 100px;
         padding: 50px;
         text-align: left;
@@ -73,7 +73,7 @@
     .right-container {
       width: 100%;
       @include tablet-landscape {
-        width: 50%;
+        width: 60%;
         padding: 50px;
         text-align: left;
       }
