@@ -68,3 +68,10 @@ code {
   box-shadow:  34px 34px 69px #e3e3e3,
   -34px -34px 69px #ffffff;
 }
+
+.n-box-form{
+  border-radius: 0px;
+  background: #222426;
+  box-shadow:  33px 33px 31px #1e1f21,
+  -33px -33px 31px #26292b;
+}

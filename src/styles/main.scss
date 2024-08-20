@@ -1,11 +1,19 @@
 @import "mixins/mixins";
 @import "variables/variables";
+
+//COMPONENTS
+
 @import "src/components/Header.module";
 @import "src/components/Carousel.module";
 @import "src/components/CarouselCards.module";
 @import "src/components/Hero.module";
 @import "src/components/ProjectsSection.module";
 @import "src/components/Experience.module";
+@import "src/components/CoursesList.module";
+@import "src/components/Form.module";
+
+
+//PAGES
 @import "src/pages/Home.module";
 @import "src/pages/Projects.module";
 @import "src/pages/Projects.module";

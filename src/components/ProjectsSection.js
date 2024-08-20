@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import  jsonData  from "../data/dev-data.json"
 import background from "../assets/images/blob-projects.svg"
 
-const ProjectsSection=()=>{
+const ProjectsSection=({dataAOS})=>{
 
     const [data,setData]=useState([]);
 
@@ -12,13 +12,13 @@ const ProjectsSection=()=>{
     },[])
 
     return(
-        <div className={"container projects-list"} >
+        <div className={"container projects-list "}  >
             <h3 className={"font bold "}>Take Look At My Projects</h3>
             <hr/>
             <div className="row">
                 {
                     data.map(({title,image,description,link})=>{
-                        return <ProjectItem  title={title} image={image} description={description} link={link}/>
+                        return <ProjectItem  key={title} dataAOS={dataAOS} title={title} image={image} description={description} link={link}/>
                     })
                 }
             </div>
