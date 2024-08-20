@@ -5,7 +5,7 @@ import ProjectsSection from "../components/ProjectsSection";
 
 const Projects = () => {
     return (
-        <div className={"main-wrapper"}>
+        <div className={"main-wrapper"} >
             <Header/>
             <h1 >Projects</h1>
 
@@ -35,6 +35,7 @@ const Projects = () => {
             </div>
 
             <ProjectsSection/>
+
 
         </div>
     )

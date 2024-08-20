@@ -1,0 +1,47 @@
+[
+  {
+    "title": "AWS Serverless Solutions",
+    "image": "https://tutsnode.org/wp-content/uploads/2023/03/AWS-Serverless-Solutions.png",
+    "link": "https://example.com/portfolio"
+  },
+  {
+    "title": "Natural Language Processing",
+    "image": "https://tutsnode.org/wp-content/uploads/2021/01/Natural-Language-Processing-Real-World-Projects-in-Python.jpg",
+    "link": "https://github.com/yourusername/weather-app"
+  },
+  {
+    "title": "Advanced Architecting on AWS",
+    "image": "https://tutsnode.org/wp-content/uploads/2021/06/Advanced-Architecting-on-AWS.jpg",
+    "link": "https://github.com/yourusername/task-manager"
+  },
+  {
+    "title": "Docker for DevOps Engineers",
+    "image": "https://tutsnode.org/wp-content/uploads/2022/10/Docker-for-DevOps-Engineers.png",
+    "link": "https://github.com/yourusername/ecommerce-store"
+  },
+  {
+    "title": "CompTIA Security+ – Attacks, Threats, and Vulnerabilities",
+    "image": "https://tutsnode.org/wp-content/uploads/2022/12/CompTIA-Security-Attacks-Threats-and-Vulnerabilities.jpg",
+    "link": "https://github.com/yourusername/blog-platform"
+  },
+  {
+    "title": "Secure Shell Fundamentals",
+    "image": "https://tutsnode.org/wp-content/uploads/2020/12/Secure-Shell-Fundamentals-Learn-SSH-By-Configuring-It.jpg",
+    "link": "https://github.com/yourusername/chat-app"
+  },
+  {
+    "title": "Secure Architecture Design",
+    "image": "https://tutsnode.org/wp-content/uploads/2023/03/Secure-Architecture-Design-1024x576.jpg",
+    "link": "https://github.com/yourusername/fitness-tracker"
+  },
+  {
+    "title": "Docker + Security + AWS Basics + Jenkins",
+    "image": "https://tutsnode.org/wp-content/uploads/2022/02/Docker-Security-AWS-Basics-Jenkins.jpg",
+    "link": "https://github.com/yourusername/recipe-app"
+  },
+  {
+    "title": "Linux Essentials for Beginners",
+    "image": "https://tutsnode.org/wp-content/uploads/2022/04/Linux-Essentials-for-Beginners.jpg",
+    "link": "https://github.com/yourusername/travel-guide"
+  }
+]
