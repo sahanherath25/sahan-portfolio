@@ -22,25 +22,22 @@ const Form = () => {
                 </div>
 
                 <div className="col-md-6 right-side   n-box-2">
-                    <h1 className={"h1-title text-center"}>Contact Me</h1>
+                    <h1 className={"h1-title form-title text-center"}>Contact Me</h1>
                     <div className="form-content">
                         <div className="row">
-                            <div className="col-md-6">
-                                <input type="text" className={"form-control m-4"} placeholder={"First Name"}/>
-                            </div>
-                            <div className="col-md-6">
-                                <input type="text" className={"form-control m-4"} placeholder={"Last Name"}/>
+                            <div className="col-md-12">
+                                <input type="text" className={"form-control  "} placeholder={"Your Name"}/>
                             </div>
                             <div className="col-md-12">
-                                <input type="text" className={"form-control m-4"} placeholder={"Last Na0me"}/>
+                                <input type="text" className={"form-control "} placeholder={"Your Email"}/>
                             </div>
                             <div className="col-md-12">
-                                <button type="submit" className={"primary-button "}>Submit</button>
+                                <input type="text" className={"form-control "} placeholder={"Share Your Thoughts"}/>
                             </div>
-
+                            <div className="col-md-12">
+                                <button type="submit" className={"primary-button submit-btn "}>Submit</button>
+                            </div>
                         </div>
-
-
 
 
                     </div>

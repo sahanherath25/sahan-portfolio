@@ -4,13 +4,12 @@
   height: 50vh;
   //border: 1px solid red;
   .row{
+
     height: 100%;
     margin: 0 10px;
     @include tablet-landscape{
       margin: unset;
     }
-
-
     .left-side {
       padding-inline: 0;
       overflow: hidden;
@@ -39,10 +38,15 @@
       flex-direction: column;
       justify-content: center;
       margin-block-start: 50px;
-
-
+      background-color: #282c34;
+      border-radius: unset;
       @include tablet-landscape{
         margin-block-start: unset;
+      }
+
+      .form-title{
+        font-family: $form-title-font-family;
+        color: $h1-header;
       }
 
       .form-content{
@@ -53,17 +57,28 @@
 
         @include tablet-landscape{
           padding: unset;
-          width: 90%;
+          width: 70%;
           margin: 0 auto;
         }
 
         //FORM ELEMENTS Styles
         .form-control{
+          margin-top: 20px;
+          background-color: #00070d;
+          color: white;
+          &::placeholder{
+            color: white;
+          }
         }
 
         button{
           margin-block-start: 10px;
+
+          @include tablet-landscape{
+            margin-block-start: 20px;
+          }
           &.submit-btn{
+            width: 100%;
             color: white;
             background-color: #001220;
           }
