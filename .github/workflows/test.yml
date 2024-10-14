@@ -1,7 +1,8 @@
 name: Delta
 on:
   push:
-    - master
+    branches:
+      - master
 jobs:
   first-job:
     runs-on: ubuntu-latest

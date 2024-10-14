@@ -26,4 +26,3 @@ jobs:
         run: npm ci
       - name: Testing
         run: echo "Testing Started"
-      - name: echo "Done Testing"
