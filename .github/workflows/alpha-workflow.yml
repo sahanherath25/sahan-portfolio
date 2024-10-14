@@ -1,0 +1,29 @@
+name: Alpha One
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - master
+      - 'dev-**'
+
+  push:
+    branches:
+      - 'dev-sahan'
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the Code
+        uses: actions/checkout@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+           node-version: 21
+      - name: Install Dependencies
+        run: npm ci
+      - name: Testing
+        run: echo "Testing Started"
+      - name: echo "Done Testing"
