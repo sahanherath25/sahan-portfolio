@@ -4,7 +4,6 @@ on:
     types:
       - opened
     branches:
-      - 'dev-sahan'
       - master
 
 jobs:
@@ -27,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Getting the code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Install Node
         uses: actions/setup-node@v4
       - name: Install Dependencies
