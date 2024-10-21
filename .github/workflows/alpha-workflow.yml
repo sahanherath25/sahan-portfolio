@@ -44,7 +44,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Deploying
-        run: echo "Deploying"
+        run: echo "Deploying to Server"
 
 
 
