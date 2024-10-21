@@ -3,8 +3,8 @@ on:
   pull_request:
     types:
       - opened
-  branches:
-    - 'dev-sahan'
+    branches:
+      - 'dev-sahan'
 
 jobs:
   lint:
