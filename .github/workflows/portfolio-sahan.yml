@@ -2,7 +2,7 @@ name: Sahan Portfolio
 on:
   push:
     branches:
-      - 'dev-sa'
+      - 'dev-sahan'
 
 jobs:
   deploy:
