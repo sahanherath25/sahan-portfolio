@@ -2,7 +2,8 @@ name: Sahan Portfolio
 on:
   push:
     branches-ignore:
-      - 'dev-sahan'
+      - "dev-sahan"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
