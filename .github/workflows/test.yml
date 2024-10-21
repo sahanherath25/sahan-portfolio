@@ -2,7 +2,8 @@ name: Delta
 on:
   push:
     branches:
-      - master
+      - "dev-isuru"
+
 jobs:
   first-job:
     runs-on: ubuntu-latest
