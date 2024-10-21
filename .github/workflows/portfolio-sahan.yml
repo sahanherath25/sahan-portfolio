@@ -1,8 +1,8 @@
 name: Sahan Portfolio
 on:
   push:
-    branches-ignore:
-      - "dev-sahan"
+    branches:
+      - "dev-isuru"
 
 jobs:
   deploy:
