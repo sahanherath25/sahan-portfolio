@@ -2,7 +2,7 @@ name: Sahan Portfolio
 on:
   push:
     branches:
-      - "dev-isuru"
+      - "dev-**"
 
 jobs:
   deploy:
