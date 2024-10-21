@@ -2,7 +2,7 @@ name: Delta
 on:
   push:
     branches:
-      - "dev-isuru"
+      - "dev-sahan"
 
 jobs:
   first-job:
